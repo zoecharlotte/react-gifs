@@ -3193,6 +3193,11 @@ gh-pages@^2.0.1:
     graceful-fs "^4.1.11"
     rimraf "^2.6.2"
 
+giphy-api@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/giphy-api/-/giphy-api-2.0.2.tgz#458b8733f50818b602c7e582a75a3b3a8d7680cb"
+  integrity sha512-vZaLQhgMF0mDQSNpqooe4Zqoe2dWGqVYhh7Ar6I41BRtcZtfupr9avT23IIPScKBYfb3qAfiKQRQyKgLi8Lcxw==
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
