@@ -2,9 +2,8 @@ import React, { Component } from "react";
 
 class Gif extends Component {
   handleClick = () => {
-    if (this.props.mainImageFunction) {
-      this.props.mainImageFunction(this.props.id);
-      console.log(this)
+    if (this.props.mainImage) {
+      this.props.mainImage(this.props.id);
     }
   }
   render() {

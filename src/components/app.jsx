@@ -12,6 +12,8 @@ class App extends Component {
       gifs: [],
       selectedGifId: "QoOrGw9UKZNx6vpZCl"
     }
+    this.mainImage = this.mainImage.bind(this);
+    this.search = this.search.bind(this);
   }
 
     search = (query) => {
@@ -38,11 +40,11 @@ class App extends Component {
         <div className="left-scene">
           <SearchBar searchFunction={this.search}/>
           <div className="selected-gif">
-            <Gif id={this.state.selectedGifId} mainImageFunction={this.mainImage}/>
+            <Gif id={this.state.selectedGifId}/>
           </div>
         </div>
         <div className="right-scene">
-          <GifList gifs={this.state.gifs}/>
+          <GifList gifs={this.state.gifs} mainImage={this.mainImage} />
         </div>
       </div>
     );
